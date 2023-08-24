@@ -79,6 +79,7 @@ alias -g C='| pbcopy'
 
 # path
 typeset -U path cdpath fpath manpath
+export JAVA_HOME=`/usr/libexec/java_home -v 17`
 export ANDROID_SDK_ROOT=$HOME/.android
 
 path=(
