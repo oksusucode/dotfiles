@@ -84,6 +84,7 @@ export ANDROID_SDK_ROOT=$HOME/.android
 
 path=(
     $HOME(N-/)
+    $HOME/.pub-cache/bini(N-/)
     $HOME/.flutter/bin(N-/)
     $ANDROID_SDK_ROOT/cmdline-tools/latest/bin(N-/)
     /usr/local/bin(N-/)
